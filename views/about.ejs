@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lego Collection</title>
+  <link rel="stylesheet" href="/css/main.css" />
+
+</head>
+
+<body tabindex="-1">
+    <%- include('partials/navbar', {page: '/about'}) %>
+
+  <div class="container mx-auto">
+      <div class="hero bg-base-200 rounded-lg p-6">
+          <div class="hero-content text-center ">
+              <div class="max-w-md">
+                  <h1 class="text-5xl font-bold">About Me</h1>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <br>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-8">
+        <div class="avatar p-4" style="flex: 2">
+            <img src="../myImg.png" alt="my image" class="rounded-lg shadow-md" style="width:24rem">
+        </div>
+          <div class="p-4">
+              <h2 class="text-xl font-bold mb-4">About Me</h2>
+              <p class="text-gray-400">"Hi, myself Sampreet Klair - a curious software developer and a person with lot to learn ahead. I am interested in Frontend, Backend, Data Science and a little bit of Finance, Economics. My aim is to deepen my understanding in various areas of technology and product development."</p>
+              <br>
+              <p class="text-gray-400">Hobbies: Programming, Formula 1, Cricket and Photography</p>
+              <p class="text-gray-400">Course: Computer Programming (CPP)</p>
+          </div>
+      </div>
+  </div>
+</body>
+
+</html>

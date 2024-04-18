@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lego Collection</title>
+  <link rel="stylesheet" href="/css/main.css" />
+
+  <style>
+    .card {
+        height: 100%;
+        margin: 10px;
+        background-color: rgba(0, 0, 0, 0.1); ;
+    }
+    
+    .card img {
+        height: 200px;
+        object-fit: cover; 
+    }
+
+  </style>
+</head>
+
+<body tabindex="-1">
+    <%- include('partials/navbar', {page:'/home'}) %>
+
+  <div class="container mx-auto">
+      <div class="hero bg-base-200 rounded-lg p-6">
+          <div class="hero-content text-center ">
+              <div class="max-w-lg">
+                  <h1 class="text-5xl font-bold">Look Into Our Lego Library</h1>
+      
+                  <p class="py-6">Explore the colorful world of Lego to uncover your creative potential. There are countless opportunities for your imagination to go wild.</p>
+              
+                  <a href="/lego/sets" class="btn btn-primary">View Collection</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <br>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+
+      <div>
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+          <img class="w-full" src="https://cdn.rebrickable.com/media/sets/0011-2.jpg" alt="Lego Set 0011-2">
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Town Mini-Figures</h2>
+            <p>It was released in the year 1979.</p>
+            <div class="card-actions justify-end">
+                <a href="/lego/sets/0011-2" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+      <div class="card bg-base-100 shadow-xl">
+          <figure>
+          <img class="w-full " src="https://cdn.rebrickable.com/media/sets/0015-1.jpg" alt="Lego Set 0015-1">
+          </figure>
+          <div class="card-body">
+          <h2 class="card-title">Space Mini-Figures</h2>
+          <p>It was released in the year 1979.</p>
+              <div class="card-actions justify-end">
+                  <a href="/lego/sets/0015-1" class="btn btn-primary">View</a>
+              </div>
+          </div>
+      </div>
+
+      </div>
+      <div>
+
+        <div class="card bg-base-100 shadow-xl">
+            <figure>
+            <img class="w-full" src="https://cdn.rebrickable.com/media/sets/41347-1.jpg" alt="Lego set - 41347-1">
+            </figure>
+            <div class="card-body">
+            <h2 class="card-title">Heartlake City Resort</h2>
+            <p>It was released in the year 2018.</p>
+                <div class="card-actions justify-end">
+                        <a href="/lego/sets/41347-1" class="btn btn-primary">View</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+  </div>
+  
+</body>
+
+</html>
