@@ -21,7 +21,7 @@ const authData = require('./modules/auth-service.js');
 const clientSessions = require('client-sessions');
 
 
-const HTTP_PORT = process.env.PORT || 8080;
+const HTTP_PORT = process.env.PORT || 3000;
 
 
 app.use(express.static('public'));
