@@ -22,7 +22,7 @@ let User;
 
 function initialize() {
   return new Promise(function (resolve, reject) {
-    let db = mongoose.createConnection(`mongodb+srv://sklair2:qwerty123456@cluster0.zkn6u9f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`);
+    let db = mongoose.createConnection(`mongodb+srv://sklair2:fio6PipzClvIGrtj@cluster0.9re6qys.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`);
     db.on("error", (err) => {
       reject(err);
     });
