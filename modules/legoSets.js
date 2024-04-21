@@ -2,8 +2,8 @@ require('dotenv').config();
 const { rejects } = require('assert');
 const { resolve } = require('path');
 const Sequelize = require('sequelize');
-let sequelize = new Sequelize('SenecaDB', 'SenecaDB_owner', 'cr9oZGStl0TC', {
-  host: 'ep-sweet-wildflower-a5g9ff6v-pooler.us-east-2.aws.neon.tech',
+let sequelize = new Sequelize('LegoApp', 'LegoApp_owner', 'Bm3QiqH9cpkG', {
+  host: 'ep-hidden-cherry-a5yb1kb5.us-east-2.aws.neon.tech',
   dialect: 'postgres',
   port: 5432,
   dialectOptions: {
